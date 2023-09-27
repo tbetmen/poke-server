@@ -1,0 +1,20 @@
+{
+  "name": "poke-server",
+  "version": "1.0.0",
+  "description": "Application server to handle pokemon client app actions.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "muhammadmmunir24@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "simple-json-db": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
