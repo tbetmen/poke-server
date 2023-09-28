@@ -4,8 +4,7 @@
   "description": "Application server to handle pokemon client app actions.",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "muhammadmmunir24@gmail.com",
   "license": "ISC",

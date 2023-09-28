@@ -8,10 +8,10 @@ const extractName = require("../helper/pokename.js")
 
 const newFib = (name, latestFib) => {
     if (latestFib == 1) {
-        if (db.has(name)) {
+        if (db.has(name.toLowerCase())) {
             return latestFib + 1
         } else {
-            db.set(name, true)
+            db.set(name.toLowerCase(), true)
             return latestFib
         }
     } else if (latestFib < 3) {

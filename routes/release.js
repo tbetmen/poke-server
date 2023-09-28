@@ -19,7 +19,7 @@ router.post("/", (req, res) => {
 
     if (prime) {
         const currentName = req.body.current_name
-        const firstname = extractName(currentName)[0]
+        const firstname = extractName(currentName)[0].toLowerCase()
 
         if (db.has(firstname)) {
             db.delete(firstname)
